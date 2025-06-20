@@ -11,33 +11,27 @@ background:very light pink #ffdeeb;
 * {
   margin: 0px;
   padding: 0;
-
   max-width: 100%;
   max-height: 100%;
-  overflow: hidden;
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 .nav {
-  display:flex;
+  display: flex;
   border: 2px solid black;
   overflow: hidden;
   background-color: #e6fcf5;
 }
 
-
 .header_container {
-  display:flex;
+  display: flex;
   border: 2px solid black;
   margin: 30px;
   padding: 10px;
-  border-radius: 10px;
   overflow: hidden;
   background-color: #e6fcf5;
-  
 }
-
 
 .icon {
   max-width: 60px;
@@ -45,14 +39,11 @@ background:very light pink #ffdeeb;
   margin-right: 20px;
 }
 
-.nav_title { 
-    width: 300px;
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 16px;
-    
-    
-    
+.nav_title {
+  width: 300px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 16px;
 }
 
 body {
@@ -65,15 +56,13 @@ body {
   height: 100vh;
 }
 
-
-
 .main_container {
   display: flex;
   flex-direction: column;
   background: #e6fcf5;
   border: 2px solid black;
   margin: 30px;
-  
+  padding: 20px;
 }
 
 .form_container {
@@ -129,4 +118,22 @@ body {
 }
 .help {
   margin-right: 50px;
+}
+
+.legend_title {
+  font-size: 19px;
+  color: #8c0f91;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 20px;
 }
