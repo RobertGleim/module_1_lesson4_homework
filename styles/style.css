@@ -1,18 +1,11 @@
-/* style colors 
-background:very light teal #e6fcf5;
-background:very light pink #ffdeeb;
 
-
-
-
-*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0px;
   padding: 0;
   max-width: 100%;
-  max-height: 100%;
+  
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -136,4 +129,8 @@ h2 {
   font-size: 16px;
   text-align: center;
   padding-bottom: 20px;
+}
+
+.food {
+    display: flex;
 }
