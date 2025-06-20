@@ -11,7 +11,6 @@ background:very light pink #ffdeeb;
 * {
   margin: 0px;
   padding: 0;
-  
 
   max-width: 100%;
   max-height: 100%;
@@ -19,6 +18,41 @@ background:very light pink #ffdeeb;
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+}
+.nav {
+  display:flex;
+  border: 2px solid black;
+  overflow: hidden;
+  background-color: #e6fcf5;
+}
+
+
+.header_container {
+  display:flex;
+  border: 2px solid black;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #e6fcf5;
+  
+}
+
+
+.icon {
+  max-width: 60px;
+  max-height: 60px;
+  margin-right: 20px;
+}
+
+.nav_title { 
+    width: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 16px;
+    
+    
+    
 }
 
 body {
@@ -31,24 +65,15 @@ body {
   height: 100vh;
 }
 
-.header_container {
-  display: flex;
-    border: 2px solid black;
-  height: 10vh;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  overflow: hidden;
-  background-color: #e6fcf5;
-}
+
 
 .main_container {
   display: flex;
   flex-direction: column;
   background: #e6fcf5;
   border: 2px solid black;
-  margin: 10px;
-  height: 10vh;
+  margin: 30px;
+  
 }
 
 .form_container {
@@ -56,7 +81,7 @@ body {
   align-items: end;
   border: 2px dashed black;
   height: 30vh;
-  margin: 10px;
+  margin: 30px;
   padding: 20px;
   background-color: #e6fcf5;
 }
@@ -85,18 +110,12 @@ body {
   margin: 5px;
 }
 
-/* radio choices */
-
-/* checkbox */
-
-/* submit-Reset */
-
 /* footer */
 .footer_container {
   display: flex;
   border: 2px solid black;
   height: 5vh;
-  margin: 10px;
+  margin: 30px;
   justify-content: space-between;
   align-items: center;
   padding: 0px 10px 0px 10px;
