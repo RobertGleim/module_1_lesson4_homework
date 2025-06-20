@@ -11,19 +11,30 @@ background:very light pink #ffdeeb;
 * {
   margin: 0px;
   padding: 0;
-  max-width: 800px;
+  
+
+  max-width: 100%;
+  max-height: 100%;
   overflow: hidden;
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 
 body {
-    background: #ffdeeb;
+  background: #ffdeeb;
+  background-image: url("../asset/background_main.jpg");
+  background-image: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vh;
+  height: 100vh;
 }
 
 .header_container {
   display: flex;
   border: 2px solid black;
+  
   height: 10vh;
   margin: 10px;
   padding: 10px;
@@ -33,27 +44,23 @@ body {
 }
 
 .main_container {
-    display: flex;
-    flex-direction: column;
-    background: #e6fcf5;
-    border: 2px dashed black;
-    margin: 10px;
-    height: 10vh;
-    width: ;
-
+  display: flex;
+  flex-direction: column;
+  background: #e6fcf5;
+  border: 2px solid black;
+  margin: 10px;
+  height: 10vh;
 }
 
 .form_container {
   display: flex;
-    
   align-items: end;
-  border: 2px solid black;
-  height: 50vh;
+  border: 2px dashed black;
+  height: 30vh;
   margin: 10px;
   padding: 20px;
   background-color: #e6fcf5;
 }
-
 
 /* contact info  */
 
@@ -77,7 +84,6 @@ body {
 #date {
   width: 120px;
   margin: 5px;
-  
 }
 
 /* radio choices */
@@ -96,15 +102,13 @@ body {
   align-items: center;
   padding: 0px 10px 0px 10px;
   background: #e6fcf5;
-
-  
 }
 .privacy {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 .tes {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 .help {
-    margin-right: 50px;
+  margin-right: 50px;
 }
