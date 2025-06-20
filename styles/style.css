@@ -1,0 +1,86 @@
+/* style colors 
+background: #e6fcf5;
+
+
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0;
+  background: #e6fcf5;
+  overflow: hidden;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.header_container {
+  display: flex;
+  border: 2px solid black;
+  height: 10vh;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.form_container {
+  display: flex;
+  align-items: end;
+  border: 2px solid black;
+  height: 50vh;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* contact info  */
+
+#fname {
+  width: 200px;
+  margin: 5px;
+}
+#lname {
+  width: 200px;
+  margin: 5px;
+}
+#email {
+  width: 200px;
+  margin: 5px;
+}
+#telephone {
+  width: 200px;
+  margin: 5px;
+}
+
+#date {
+  width: 120px;
+  margin: 5px;
+  
+}
+
+/* radio choices */
+
+/* checkbox */
+
+/* submit-Reset */
+
+/* footer */
+.footer_container {
+  display: flex;
+  border: 2px solid black;
+  height: 5vh;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.privacy {
+    margin-right: 25px;
+}
+.tes {
+    margin-right: 25px;
+}
+.help {
+    margin-right: 50px;
+}

@@ -4,55 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Event Sign up</title>
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="header_container">
             <nav>
+                <a href="">Icon</a>
                 <a href="">sign in</a>
                 <a href="">register</a>
                 <a href="">contact</a>
             </nav>
-               
+
         </div>
     </header>
 
     <main>
-        <div>
-            <form action="">
-                <label for="">First Name</label>
-                <input type="text" id="" name="">
-                <label for="">Last Name</label>
-                <input type="text" id="" name="">
-                <label for="">Email</label>
-                <input type="text" id="" name="">
-                <label for="">Telephone</label>
-                <input type="text" id="" name="">
-                <label for="">Date</label>
-            </form>
+        <div class="form_container">
+            <form action="" method="post">
+
+                <label for="fname"> First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder=" &nbsp;John" required>
+
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="&nbsp;Doe" required>
+
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="&nbsp;Summerevent@funtime.com" required>
+
+
+                <label for="telephone">Telephone:</label>
+                <input type="tel" id="telephone" name="telephone" placeholder="&nbsp;123-456-7890">
+
+
+                <label for="date">Date Attending:</label>
+                <input type="date" id="date" name="date">
+
+
                 <br><br>
-                <form action="">
+
                 <input type="radio" id="" name="">
                 <label for=""></label>
                 <input type="radio" id="" name="">
                 <label for=""></label>
                 <input type="radio" id="" name="">
                 <label for=""></label>
-                </form>
+
                 <br><br>
-                <form action="">
+
                 <input type="checkbox" id="" name="">
-                <label for=""></label>
-                </form>
+                <label for="checkbox"></label>
+
                 <br><br>
-               <form action="">
-                <input type="submit" id="" name="">
-                <label for=""></label>
-                <input type="reset" id="" name="">
-                <label for=""></label>
-               </form>
+
+                <input type="submit" id="submit" name="">
+                <label for="submit"></label>
+                <input type="reset" id="reset" name="">
+                <label for="reset"></label>
+
 
 
             </form>
@@ -60,7 +78,13 @@
     </main>
 
     <footer>
-        <div>
+        <div class="footer_container">
+            <p>© 2025 Event Sign Up. All rights reserved.</p>
+            <nav>
+                <a class="privacy" href="">Privacy Policy</a>
+                <a class="tes" href="">Terms of Service</a>
+                <a class="help" href="">Help</a>
+            </nav>
 
         </div>
     </footer>
