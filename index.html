@@ -27,11 +27,25 @@
     </header>
 
     <main>
-        <div class="form_container">
-            <form action="" method="post">
+        <div class="main_container">
+            <h1>Sign Up for Our Event</h1>
+            <p>Join us for an exciting event filled with fun and learning!</p>
+
+        </div>
+        <fieldset class="form_container">
+            <legend>Event Sign Up Form</legend>
+            <form method="post">
+                <label for="title">Mr.</label>
+                <input type="radio" id="title" name="title">
+                <label for="title">Mrs.</label>
+                <input type="radio" id="title" name="title">
+                <label for="title">Miss</label>
+                <input type="radio" id="title" name="title">
+
+                <br>
 
                 <label for="fname"> First Name:</label>
-                <input type="text" id="fname" name="fname" placeholder=" &nbsp;John" required>
+                <input type="text" id="fname" name="fname" placeholder=" &nbsp;John" required><br>
 
 
                 <label for="lname">Last Name:</label>
@@ -71,10 +85,12 @@
                 <input type="reset" id="reset" name="">
                 <label for="reset"></label>
 
+        </fieldset>
 
 
-            </form>
-        </div>
+
+        </form>
+
     </main>
 
     <footer>
