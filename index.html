@@ -53,27 +53,31 @@
                 with a dazzling lakeside fireworks show set to summer anthems. Don’t forget your beach blankets and
                 sunglasses—this summer bash is the ultimate celebration of sunshine and good vibes!</p>
             <div class="activities">
-                
-                <strong><ul class="activity_list">
-                    <h2>Activities</h2>
-                    <li>Inflatable obstacle's</li>
-                    <li>Face Paining</li>
-                    <li>Hand made goods</li>
-                    <li>Local Food Vendors</li>
-                    <li>Lawn Games</li>
-                    <li>Dancing</li></strong>
+
+                <strong>
+                    <ul class="activity_list">
+                        <h2>Activities</h2>
+                        <li>Inflatable obstacle's</li>
+                        <li>Face Paining</li>
+                        <li>Hand made goods</li>
+                        <li>Local Food Vendors</li>
+                        <li>Lawn Games</li>
+                        <li>Dancing</li>
+                </strong>
 
                 </ul>
             </div>
             <div class="music">
-                
-              <strong><ul class="music_list">
-                <h2>Music</h2>
-                    <li>Metallica</li>
-                   <li>Five Finger Death Punch</li>
-                   <li>Syatem Of a Down</li>
-                   <li>Pink Floyd</li>
-                   <li>Disturbed</li></strong>
+
+                <strong>
+                    <ul class="music_list">
+                        <h2>Music</h2>
+                        <li>Metallica</li>
+                        <li>Five Finger Death Punch</li>
+                        <li>System Of a Down</li>
+                        <li>Pink Floyd</li>
+                        <li>Disturbed</li>
+                </strong>
                 </ul>
             </div>
         </div>
@@ -82,78 +86,97 @@
         <fieldset class="form_container">
             <legend><span class="legend_title">Event Sign Up Form</span></legend>
             <form method="post">
-                <label for="mr">Mr.</label>
-                <input type="radio" id="mr" name="title">
-                <label for="mrs">Mrs.</label>
-                <input type="radio" id="mrs" name="title">
-                <label for="miss">Miss</label>
-                <input type="radio" id="miss" name="title">
-
+                <div class="title_box">
+                    <label for="mr">Mr.</label>&nbsp;&nbsp;
+                    <input type="radio" id="mr" name="title">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="mrs">Mrs.</label> &nbsp;&nbsp;
+                    <input type="radio" id="mrs" name="title">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="miss">Miss</label>&nbsp;&nbsp;
+                    <input type="radio" id="miss" name="title">
+                </div>
                 <br>
+                <div class="fname_info">
+                    <label for="fname"> First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder=" &nbsp;&nbsp;John" required>
+                </div>
 
-                <label for="fname"> First Name:</label>
-                <input type="text" id="fname" name="fname" placeholder=" &nbsp;John" required><br>
-
-
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname" placeholder="&nbsp;Doe" required>
-
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="&nbsp;Summerevent@funtime.com" required><br>
-
-
-                <label for="telephone">Telephone:</label>
-                <input type="tel" id="telephone" name="telephone" placeholder="&nbsp;123-456-7890">
-
-
-                <label for="date">Date Attending:</label>
-                <input type="date" id="date" name="date">
-
-
-                <br><br>
-                <div class="food">
-                    <div class="omni"><label for="omni">Omnivore</label>
-                        <input type="radio" id="omni" name="food_preference">
-                    </div>
-                    <div> <select name="meat" id="meat">
-                        <option value="">Please choose</option>
-                            <option value="beef">Beef</option>
-                            <option value="chicken">Chicken</option>
-                            <option value="pork">Pork</option>
-                            <option value="other">Other</option>
-                            <option value="none">Ewww!!</option>
-
-                        </select></div>
-
-                    <div class="herb"><label for="herb">Herbivore</label>
-                        <input type="radio" id="herb" name="food_preference">
-                    </div>
-                    <div class="veg"><select name="veg" id="veg">
-                        <option value="">Please choose</option>
-                            <option value="vegetable">Vegetable</option>
-                            <option value="salad">Salad</option>
-                            <option value="tofu">Tofu</option>
-                            <option value="beyond">Beyond</option>
-                            <option value="none">Ewww!!</option>
-
-                        </select></div>
+                <div class="lname_info">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="&nbsp;&nbsp;Doe" required>
                 </div>
 
 
 
-                <br><br>
+                <div class="email_info">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="&nbsp;&nbsp;Summerevent@funtime.com"
+                        required>
+                </div>
+                <div class="tele_info">
+                    <label for="telephone">Telephone:</label>
+                    <input type="tel" id="telephone" name="telephone" placeholder="&nbsp;&nbsp;123-456-7890">
+                </div>
 
-                <input type="checkbox" id="checkbox" name=""><label for="checkbox"> &nbsp Sign up for the News Letter on
-                    upcoming events.</label>
 
 
-                <br><br>
+                <div class="date_info">
+                    <label for="date">Date Attending:</label>
+                    <input type="date" id="date" name="date">
+                </div>
 
-                <input type="submit" id="submit" name="">
+
+                <img src="asset/public-domain-vectors-8yKObLHuEGg-unsplash.png" alt="Pic of some meat"
+                    class="meat_icon">
+                <div class="food">
+                    <div class="omni">
+                        <label for="omni">Omnivore</label>
+                        <input type="radio" id="omni" name="food_preference">
+
+                        <div> <select name="meat" id="meat">
+                                <option value="">Please choose</option>
+                                <option value="beef">Beef</option>
+                                <option value="chicken">Chicken</option>
+                                <option value="pork">Pork</option>
+                                <option value="other">Other</option>
+                                <option value="none">Ewww!!</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <img src="asset/c570a8fbc0b16cc06d2034ff49c69356.png" alt="pic of smiling broccoli"
+                        class="veg_icon">
+                    <div class="herb">
+                        <label for="herb">Herbivore</label>
+                        <input type="radio" id="herb" name="food_preference">
+
+                        <div class="veg"><select name="veg" id="veg">
+                                <option value="">Please choose</option>
+                                <option value="vegetable">Vegetable</option>
+                                <option value="salad">Salad</option>
+                                <option value="tofu">Tofu</option>
+                                <option value="beyond">Beyond</option>
+                                <option value="none">Ewww!!</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkbox_info"><input type="checkbox" id="checkbox" name=""><label for="checkbox"> &nbsp Sign up for the News Letter on
+                    upcoming events.</label></div>
+
+
+                
+
+                <div class="submit_button">
+                    <input type="submit" id="submit" name="">
                 <label for="submit"></label>
-                <input type="reset" id="reset" name="">
+            </div>
+
+                <div class="reset_button">
+                    <input type="reset" id="reset" name="">
                 <label for="reset"></label>
+            </div>
 
         </fieldset>
 
