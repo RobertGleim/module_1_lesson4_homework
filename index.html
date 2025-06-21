@@ -24,9 +24,9 @@
                 </div>
                 <p class="nav_title">SUMMER FUN TIME!!!</p>
 
-                <button class="signin"><a href="">sign in</a></button>
-                <button class="register"><a href="">register</a></button>
-                <button class="contact"><a href="">contact</a></button>
+                <button class="signin"><a href="#form_container">Sign Up</a></button>
+                <button class="Events"><a href="#main_container">Events</a></button>
+                
 
 
             </nav>
@@ -35,7 +35,7 @@
     </header>
 
     <main>
-        <div class="main_container">
+        <div class="main_container" id="main_container">
             <h1>Sign Up for Our Event</h1>
             <h2>Join us for an exciting event filled with fun and learning!</h2>
             <p>Get ready to soak up the sun and celebrate in style at the Summer Time Bash 2025—an unforgettable all-day
@@ -80,10 +80,15 @@
                 </strong>
                 </ul>
             </div>
+            <div >
+                <p class="special_events">Firefly Glow Parade :</p>
+                <p class="special_events">Water Ballon Fight :</p>
+                <p class="special_events">Pie Eating Contest</p>
+            </div>
         </div>
 
 
-        <fieldset class="form_container">
+        <fieldset class="form_container" id="form_container">
             <legend><span class="legend_title">Event Sign Up Form</span></legend>
             <form method="post">
                 <div class="title_box">
@@ -162,21 +167,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="checkbox_info"><input type="checkbox" id="checkbox" name=""><label for="checkbox"> &nbsp Sign up for the News Letter on
-                    upcoming events.</label></div>
+                <div class="checkbox_info"><input type="checkbox" id="checkbox" name=""><label for="checkbox"> &nbsp
+                        Sign up for the News Letter on
+                        upcoming events.</label></div>
 
 
-                
+
 
                 <div class="submit_button">
                     <input type="submit" id="submit" name="">
-                <label for="submit"></label>
-            </div>
+                    <label for="submit"></label>
+                </div>
 
                 <div class="reset_button">
                     <input type="reset" id="reset" name="">
-                <label for="reset"></label>
-            </div>
+                    <label for="reset"></label>
+                </div>
 
         </fieldset>
 
@@ -189,10 +195,10 @@
     <footer>
         <div class="footer_container">
             <p>© 2025 Event Sign Up. All rights reserved.</p>
-            <nav>
-                <a class="privacy" href="">Privacy Policy</a>
-                <a class="tes" href="">Terms of Service</a>
-                <a class="help" href="">Help</a>
+            <nav class="footer_nav">
+                <a class="privacy" href="Privacy.html">Privacy Policy</a>
+                <a class="tes" href="terms.html">Terms of Service</a>
+                <a class="help" href="help.html">Help</a>
             </nav>
 
         </div>

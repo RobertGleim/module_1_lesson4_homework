@@ -6,7 +6,7 @@
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-color: #8c0f91;
+  color: #8c0f91;
   max-width: 800px;
 }
 .nav {
@@ -25,7 +25,7 @@ color: #8c0f91;
 }
 
 .icon img {
-  width:60px;
+  width: 60px;
   margin-right: 20px;
 }
 
@@ -34,7 +34,6 @@ color: #8c0f91;
   font-weight: bold;
   margin-top: 16px;
   text-align: center;
-  
 }
 
 body {
@@ -208,19 +207,52 @@ input:focus {
   display: flex;
   width: 100px;
   transform: translate(100px, -110px);
-  
 }
 
 .checkbox_info {
-    display: flex;
-    transform: translate(100px,-20px);
+  display: flex;
+  transform: translate(100px, -20px);
 }
 #submit {
-width:100px;
-transform: translate(65px);
+  width: 100px;
+  transform: translate(65px);
 }
 
 #reset {
-    width:100px;
-    transform: translate(385px,-20px);
+  width: 100px;
+  transform: translate(385px, -20px);
+}
+
+.special_events {
+  display: inline-block;
+  font-weight: bold;
+  height: 20px;
+  font-size: 26px;
+  transform: translate(0px, -20px);
+}
+
+.footer_nav {
+  display: inline-block;
+}
+
+/* bottom links joke links */
+
+.privacy_policy {
+  margin-top: 20px;
+}
+
+.terms {
+  margin-top: 20px;
+}
+
+.help {
+  margin-top: 20px;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 48px;
+  text-decoration: underline;
 }
