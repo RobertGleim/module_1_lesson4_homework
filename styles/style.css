@@ -1,19 +1,17 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0px;
   padding: 0;
-  max-width: 100%;
-  
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  max-width: 100%;
+  
 }
 .nav {
   display: flex;
   border: 2px solid black;
-  overflow: hidden;
   background-color: #e6fcf5;
 }
 
@@ -22,11 +20,11 @@
   border: 2px solid black;
   margin: 30px;
   padding: 10px;
-  overflow: hidden;
+  overflow: auto;
   background-color: #e6fcf5;
 }
 
-.icon {
+.icon img {
   max-width: 60px;
   max-height: 60px;
   margin-right: 20px;
@@ -56,16 +54,22 @@ body {
   border: 2px solid black;
   margin: 30px;
   padding: 20px;
+  overflow: auto;
 }
 
 .form_container {
   display: flex;
   align-items: end;
   border: 2px dashed black;
-  height: 30vh;
+  overflow: auto;
   margin: 30px;
   padding: 20px;
   background-color: #e6fcf5;
+  overflow: auto;
+}
+
+form {
+  height: 100%;
 }
 
 /* contact info  */
@@ -132,5 +136,27 @@ h2 {
 }
 
 .food {
+  display: flex;
+}
+
+input:focus {
+  color: #8c0f91;
+  transform: scale(1.1);
+  outline: 1px ridge #8c0f91;
+}
+
+.activities {
     display: flex;
+    width: 50%;
+    transform: translateY(20px) ;
+    margin-left:20px;
+}
+
+
+.music {
+    display: flex;
+    transform: translateY(-120px);
+    width:50%;
+    margin-left: 50%;
+   
 }
